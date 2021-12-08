@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from 'react'
-import Demo from './components/4_fragment'
 
-export default class App extends Component {
+export default class Demo extends Component {
     render() {
         return (
             <Fragment>
-                <Demo />
+                <input type="text"></input>
+                <input type="text"></input>
             </Fragment>
         )
     }

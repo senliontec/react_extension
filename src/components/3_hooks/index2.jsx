@@ -23,7 +23,7 @@ import React, { Component } from 'react'
 } */
 
 // 执行了n+1次
-function Demo() {
+/* function Demo() {
 
     // React底层做了处理，不会因为再次调用导致重新初始化
     const [count, setCount] = React.useState(0);
@@ -53,4 +53,4 @@ function Demo() {
     )
 }
 
-export default Demo
+export default Demo */

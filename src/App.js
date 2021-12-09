@@ -1,12 +1,12 @@
-import React, { Component, Fragment } from 'react'
-import Demo from './components/7_render_props'
+import React, { Component, Fragment } from "react";
+import Demo from "./components/8_ErrorBoundary/Parent";
 
 export default class App extends Component {
-    render() {
-        return (
-            <Fragment>
-                <Demo />
-            </Fragment>
-        )
-    }
+  render() {
+    return (
+      <Fragment>
+        <Demo />
+      </Fragment>
+    );
+  }
 }
